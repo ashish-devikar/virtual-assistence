@@ -38,11 +38,6 @@ btn.addEventListener("click",()=>{
     btn.style.display="none"
     voice.style.display="block"
 })
-voice.addEventListener("click",()=>{
-    reco.start()
-    voice.style.display="none"
-    btn.style.display="block"
-})
     function takeCommand(message){
         btn.style.display="flex"
         voice.style.display="none"
