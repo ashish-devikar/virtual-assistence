@@ -45,7 +45,7 @@ btn.addEventListener("click",()=>{
             speak("hello sir, what can i help you")
         }else if(message.includes("aapko kisne developed kiya hai")||message.includes("who made you")||message.includes("who developed you")){
             speak("mujhe developer ashish sir ne developed kiya hai")
-        }else if(message.includes("thank you")){
+        }else if(message.includes("thank you")||message.includes("thank u")||message.includes("thanks"){
             speak("most welcome")
         }
         else if(message.includes("open youtube")){
