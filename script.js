@@ -46,7 +46,7 @@ voice.addEventListener("click",()=>{
     function takeCommand(message){
         btn.style.display="flex"
         voice.style.display="none"
-        if(message.includes("hello")||message.includes("hey")){
+        if(message.includes("hello")||message.includes("hey")||message.includes("hi")){
             speak("hello sir, what can i help you")
         }else if(message.includes("aapko kisne developed kiya hai")||message.includes("who made you")||message.includes("who developed you")){
             speak("mujhe developer ashish sir ne developed kiya hai")
