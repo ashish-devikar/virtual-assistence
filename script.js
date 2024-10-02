@@ -43,8 +43,7 @@ btn.addEventListener("click",()=>{
         voice.style.display="none"
         if(message.includes("hello")||message.includes("hey")){
             speak("hello sir, what can i help you")
-        }else if(message.include("aapko developed kisne kiya")||message.include("who made you")||message.include("who developed you")
-        else if(message.includes("who are you")||message.includes("hu r u")){
+        }else if(message.include("aapko developed kisne kiya")||message.include("who made you")||message.include("who developed you"){
             speak("mujhe developer ashish sir ne developed kiya hai")
         }else if(message.includes("open youtube")){
             speak("please opening youtube ")
