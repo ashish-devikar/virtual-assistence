@@ -43,9 +43,9 @@ btn.addEventListener("click",()=>{
         voice.style.display="none"
         if(message.includes("hello")||message.includes("hey")){
             speak("hello sir, what can i help you")
-        }
+        }else if(message.include("aapko developed kisne kiya")||message.include("who made you")||message.include("who developed you")
         else if(message.includes("who are you")||message.includes("hu r u")){
-            speak("i am robo, created by my spacial person stylestar Ashish sir")
+            speak("mujhe developer ashish sir ne developed kiya hai")
         }else if(message.includes("open youtube")){
             speak("please opening youtube ")
             window.open("https://www.youtube.com/")
